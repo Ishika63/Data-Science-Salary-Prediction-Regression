@@ -4,7 +4,7 @@
 To perform exploratory data analysis to find important insights into salaries of data science professionals.
 
 ## Data Collection:
-The dataset for this project is collected from [Kaggle](https://www.kaggle.com/datasets/saurabhshahane/data-science-jobs-salaries) and consists of 11 columns and 607 rows. 
+The dataset for this project is collected from [Kaggle](https://www.kaggle.com/datasets/saurabhshahane/data-science-jobs-salaries) and consists of 12 columns and 607 rows. 
 
 ### Data Science Job Salaries Dataset Columns:
 
@@ -20,7 +20,7 @@ The dataset for this project is collected from [Kaggle](https://www.kaggle.com/d
 
 6. **salary_currency**: The currency of the salary paid as an ISO 4217 currency code.
 
-7. **salaryinusd**: The salary in USD.
+7. **salary_in_usd**: The salary in USD.
 
 8. **employee_residence**: Employee's primary country of residence during the work year as an ISO 3166 country code.
 
@@ -28,7 +28,11 @@ The dataset for this project is collected from [Kaggle](https://www.kaggle.com/d
 
 10. **company_location**: The country of the employer's main office or contracting branch.
 
+11. **company_size** : The median number of people that worked for the company during the year.
 
+12. **Updated_Job_Title** :  Updated version of the job title for certain entries in the dataset.
+
+    
 
 ## Project Structure:
 The project directory is organized as follows:

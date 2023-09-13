@@ -1,30 +1,47 @@
-# Data-Science-Salary-Prediction-Regression
+# Data-Science-Salary-Prediction(Regression Problem)
 
-## 1. Problem Statement:
+## Problem Statement:
 To perform exploratory data analysis to find important insights into salaries of data science professionals.
-## 2) Data Collection.
-The Dataset is collected from https://www.kaggle.com/datasets/saurabhshahane/data-science-jobs-salaries
-The data consists of 11 column and 607 rows.
 
-## Data Science Job Salaries Dataset contains 11 columns
-work_year : The year the salary was paid.
+## Data Collection:
+The dataset for this project is collected from [Kaggle](https://www.kaggle.com/datasets/saurabhshahane/data-science-jobs-salaries) and consists of 11 columns and 607 rows. 
 
-experience_level : The experience level in the job during the year
+### Data Science Job Salaries Dataset Columns:
 
-employment_type : The type of employment for the role
+1. **work_year**: The year the salary was paid.
 
-job_title : The role worked in during the year.
+2. **experience_level**: The experience level in the job during the year.
 
-salary : The total gross salary amount paid.
+3. **employment_type**: The type of employment for the role.
 
-salary_currency : The currency of the salary paid as an ISO 4217 currency code.
+4. **job_title**: The role worked in during the year.
 
-salaryinusd : The salary in USD
+5. **salary**: The total gross salary amount paid.
 
-employee_residence : Employee's primary country of residence in during the work year as an ISO 3166 country code.
+6. **salary_currency**: The currency of the salary paid as an ISO 4217 currency code.
 
-remote_ratio : The overall amount of work done remotely
+7. **salaryinusd**: The salary in USD.
 
-company_location : The country of the employer's main office or contracting branch
+8. **employee_residence**: Employee's primary country of residence during the work year as an ISO 3166 country code.
 
-company_size : The median number of people that worked for the company during the year
+9. **remote_ratio**: The overall amount of work done remotely.
+
+10. **company_location**: The country of the employer's main office or contracting branch.
+
+
+
+## Project Structure:
+The project directory is organized as follows:
+
+- **data**: Contains datasets used in the project.
+  - **ds_cleaned.csv**: The cleaned dataset.
+  - **ds_feature_eng**: Folder for feature-engineered datasets.
+  - **ds_salaries.csv**: Additional dataset related to salaries.
+
+- **models**: Stores trained machine learning models.
+  - **model.pkl**: The saved model.
+
+- **DATA CLEANING.ipynb**: Jupyter Notebook for data cleaning.
+- **EDA - DATA SCIENCE SALARY PREDICTION .ipynb**: Notebook for exploratory data analysis.
+- **FEATURE ENGINEERING.ipynb**: Notebook for feature engineering.
+- **MODEL TRAINING.ipynb**: Notebook for model training.

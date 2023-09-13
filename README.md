@@ -40,7 +40,7 @@ The project directory is organized as follows:
 - **data**: Contains datasets used in the project.
   - **ds_cleaned.csv**: The cleaned dataset.
   - **ds_feature_eng**: Folder for feature-engineered datasets.
-  - **ds_salaries.csv**: Additional dataset related to salaries.
+  - **ds_salaries.csv**: Dataset related to salaries.
 
 - **models**: Stores trained machine learning models.
   - **model.pkl**: The saved model.
